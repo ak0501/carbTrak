@@ -2,7 +2,7 @@ const $restaurant = $("#newRestaurant");
 const $meal = $("#mealInput");
 const $calculateBtn = $("#calculateBtn");
 const $createBtn = $(".createRestaurant");
-const $table = $(".table")
+const $table = $(".table");
 var $Field1 = $(".dropdown");
 
 /* ----------------------------- OnClick Action ----------------------------- */
