@@ -1,5 +1,6 @@
 
-#### AppCarbTracker ![food](https://media.giphy.com/media/ZdepVTYArff7NirCK9/giphy.gif)
+#### AppCarbTracker 
+<img src="https://media.giphy.com/media/ZdepVTYArff7NirCK9/giphy.gif" width="100">
 
 **Overview**
     AppCarbTracker is an application which allows individuals with diatery restrictions to keep track of the amount of carbohydrates in a particular meal.This application was initially developed to help diabetic people but can be used by anybody.
@@ -13,7 +14,12 @@
 
 **Languages and Tools:**
 
-<p align="left">
-  <img src="https://media3.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.webp" width="50"><img src="https://media3.giphy.com/media/ln7z2eWriiQAllfVcn/200w.webp" width="50"><img src="https://i.giphy.com/media/eNAsjO55tPbgaor7ma/200w.webp" width="50"><img src="https://i.giphy.com/media/IdyAQJVN2kVPNUrojM/200.webp" width="50">
+<p align="center">
+  <img src="https://media3.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.webp" width="35"><img src="https://media3.giphy.com/media/ln7z2eWriiQAllfVcn/200w.webp" width="35"><img src="https://i.giphy.com/media/IdyAQJVN2kVPNUrojM/200.webp" width="35">
+  <img src="https://media.giphy.com/media/Sr8xDpMwVKOHUWDVRD/giphy.gif" width="35">
+  <img src="https://media.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif" width="35">
+  <img src="https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif" width="35">
+  <img src="https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif" width="35">
+
   
 </p>
