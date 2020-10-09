@@ -8,9 +8,8 @@
 ***
  ![Screenshot](./public/assets/css/CarbTracker.jpg)
 
->##### Tools Used
->Edamam API to obtain the nutritional value
->BootStrap | HTML5 | CSS3 | Node | Express | SQL 
+>##### API 
+>Edamam API 
 
 **Languages and Tools:**
 
@@ -18,8 +17,7 @@
   <img src="https://media3.giphy.com/media/kdFc8fubgS31b8DsVu/giphy.webp" width="35"><img src="https://media3.giphy.com/media/ln7z2eWriiQAllfVcn/200w.webp" width="35"><img src="https://i.giphy.com/media/IdyAQJVN2kVPNUrojM/200.webp" width="35">
   <img src="https://media.giphy.com/media/Sr8xDpMwVKOHUWDVRD/giphy.gif" width="35">
   <img src="https://media.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif" width="35">
-  <img src="https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif" width="35">
-  <img src="https://media.giphy.com/media/fsEaZldNC8A1PJ3mwp/giphy.gif" width="35">
+  <img src="https://media.giphy.com/media/gHnBLyeYE6hboT3t3o/giphy.gif" width="45">
 
   
 </p>
