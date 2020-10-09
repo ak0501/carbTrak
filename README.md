@@ -8,8 +8,8 @@
 ***
  ![Screenshot](./public/assets/css/CarbTracker.jpg)
 
->##### API 
->Edamam API 
+ **Contributors** 
+>Abinash K | Scott H
 
 **Languages and Tools:**
 
@@ -18,6 +18,4 @@
   <img src="https://media.giphy.com/media/Sr8xDpMwVKOHUWDVRD/giphy.gif" width="35">
   <img src="https://media.giphy.com/media/XAxylRMCdpbEWUAvr8/giphy.gif" width="35">
   <img src="https://media.giphy.com/media/gHnBLyeYE6hboT3t3o/giphy.gif" width="45">
-
-  
 </p>
