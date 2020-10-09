@@ -4,8 +4,6 @@ const request = require("request");
 const { response } = require("express");
 // const appId = process.env.APP_ID;
 // const appKey = process.env.APP_KEY;
-
-
 /* ----------------------- all food from a restaurant ----------------------- */
 module.exports = function (app) {
     app.get("/api/resfood", function (req, res) {
@@ -18,7 +16,6 @@ module.exports = function (app) {
                 res.json(err);
             });
     });
-
     /* ------------------------------- Back End server requesting the external API for data ------------------------------ */
     app.get("/api/nutrition/:input/:meal/:restaurant", function (req, res) {
         const userInput = req.params.input;
@@ -42,13 +39,10 @@ module.exports = function (app) {
             console.log(carbohydrates, "carbohydrates");
             let totalFibers = nutrients.FIBTG.quantity ? nutrients.FIBTG.quantity : 0;
             console.log(totalFibers, "totalfibers");
-
             // const netCarbs = responseBody.totalNutrients ;
             let netCarbs = parseInt((carbohydrates) - (totalFibers)).toFixed(1);
             console.log(netCarbs, "netCarbs");
-
             // let userMeal = "";
-
             // var dbItem = {
             //     // add restaurant function
             //     RestaurantId: responseBody.id,
@@ -59,10 +53,8 @@ module.exports = function (app) {
             // };
         });
     });
-
     /* ----------------------------- create new Meal ---------------------------- */
     app.post("/api/meals", function (req, res) {
-
         db.Food.create({
             meal:req.body.name,
         }).then(function () {
@@ -72,14 +64,8 @@ module.exports = function (app) {
             .catch(function (err) {
                 res.json(err);
             });
-
     });
-
-
-
     // ───────────────────────────────────Delete Meal 
-
-
     app.delete("/api/meals/:id", function (req, res) {
         db.Food.destroy({
                 where: {
@@ -92,6 +78,5 @@ module.exports = function (app) {
             .catch(function (err) {
                 res.json(err);
             });
-
     });
 };

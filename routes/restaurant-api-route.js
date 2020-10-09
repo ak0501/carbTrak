@@ -1,6 +1,5 @@
 var db = require("../models");
 const restaurant = require("../models/restaurant");
-
 // ────────────────────────────────────────────── GET ALL RESTAURANTS FROM DB ─────
 module.exports = function (app) {
   app.get("/api/restaurant", function (req, res) {
@@ -19,7 +18,6 @@ module.exports = function (app) {
       }).then(function (response) {
         console.log(response);
         res.sendStatus(201);
-       
       })
       .catch(function (err) {
         console.log(err);
