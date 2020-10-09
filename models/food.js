@@ -6,8 +6,6 @@ module.exports = function(sequelize, DataType){
           fiber:DataType.INTEGER,
           netCarbs:DataType.INTEGER
     });
-   
-
 Food.associate = function(models) {
     Food.belongsTo(models.Restaurant, {
       foreignKey: {
@@ -16,8 +14,4 @@ Food.associate = function(models) {
     });
   };
   return Food;
-
 };
-
-
-
